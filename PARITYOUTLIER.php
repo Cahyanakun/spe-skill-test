@@ -1,6 +1,6 @@
 <?php
 class parityOutlier{
-  public static function findNeedle($arr) {
+  public static function parity($arr) {
     $oddNumbers = array();
     $evenNumber = array();
     $count = 0;
@@ -26,7 +26,7 @@ class parityOutlier{
   }
 
   public function __construct() {
-    self::findNeedle([2, 4, 0, 100, 4, 11, 2602, 36]);
+    self::parity([2, 4, 0, 100, 4, 11, 2602, 36]);
   }
 }
 
